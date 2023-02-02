@@ -1,0 +1,54 @@
+.page_container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.page_title {
+    font-size: 1.75rem;
+}
+
+.section_title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #999;
+}
+
+.hr_container {
+    width: 100%;
+}
+
+.folder_section_container,
+.file_section_container {
+    width: 100%;
+}
+
+.folder_card {
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.folder_card:hover {
+    transform: scale(1.1);
+}
+
+/* nav section */
+
+.nav_container {
+    width: 100%;
+    /* border: solid 1px red; */
+}
+
+.nav_container span {
+    float: left;
+    cursor: pointer;
+}
+
+
+.no_dropdown a {
+    text-decoration: none;
+    color: black;
+}
